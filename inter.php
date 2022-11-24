@@ -18,5 +18,7 @@ $usercensored = $_GET["usercensored"]
     <hr>
     <h4>Ecco il paragrafo censurato</h4>
     <h1><?php echo str_replace($usercensored, "***", $userpara); ?></h1>
+
+
 </body>
 </html>

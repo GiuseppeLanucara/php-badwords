@@ -8,6 +8,7 @@
     <title>PHP-Hello</title>
 </head>
 <body>
+
     <form action="inter.php" method="GET">
         <label for="paragrafo">Scrivi un paragrafo</label>
         <textarea name="userpara" id="paragrafo" cols="30" rows="10"></textarea>
@@ -15,6 +16,9 @@
         <label for="censored">Parola da censurare</label>
         <input type="text" id="censored" name="usercensored">
     <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
     </form>
+
+   
 </body>
 </html>
