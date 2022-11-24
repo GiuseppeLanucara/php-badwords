@@ -11,8 +11,8 @@
         <label for="paragrafo">Scrivi un paragrafo</label>
         <textarea name="userpara" id="paragrafo" cols="30" rows="10"></textarea>
         <hr>
-        <label for="censura">Scrivi la parola da censurare</label>
-        <input type="text" id="censura" name="usercensored">
+        <label for="censored">Parola da censurare</label>
+        <input type="text" id="censored" name="usercensored">
     <button type="submit">Submit</button>
     </form>
 </body>

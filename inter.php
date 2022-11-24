@@ -1,6 +1,6 @@
 <?php 
 $userpara = $_GET["userpara"];
-$usercensored = $_GET["usercensored"];
+$usercensored = $_GET["usercensored"]
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +16,6 @@ $usercensored = $_GET["usercensored"];
     <h4> Il paragrafo che hai scritto ha  <?php echo  strlen($userpara); ?> parole. </h4>
     <hr>
     <h1>Ecco il paragrafo censurato</h1>
-    <h4><?php echo str_replace($usercensored); ?></h4>
+    <h4><?php echo str_replace($usercensored, "***", $userpara); ?></h4>
 </body>
 </html>
