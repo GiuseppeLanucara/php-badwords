@@ -11,6 +11,7 @@ $userpara = $_GET["userpara"]
     <title>PHP-Hello</title>
 </head>
 <body>
-    <h1> <?php echo  $userpara; ?> </h1>
+    <h1><?php echo $userpara ?></h1>
+    <h4> Il paragrafo che hai scritto ha  <?php echo  strlen($userpara); ?> parole. </h1>
 </body>
 </html>
